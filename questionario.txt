@@ -1,0 +1,37 @@
+1- Git é uma ferramenta usada para controlar as versões se um código no seu próprio computador, enquanto o GitHub é um serviço online que armazena cópias dessas versões na nuvem, facilitando a colaboração e o compartilhamento de código entre usuários.
+
+2- 
+git init - Inicia um repositório Git no diretório local do projeto.
+git add - Adiciona as alterações ao índice, preparando-as para o commit.
+git commit - Cria um commit com as alterações no repositório local.
+git remote add origin - Adiciona um repositório remoto chamado "origin" (pode ser qualquer nome) com a URL do repositório no GitHub.
+git push - Envia as alterações para o repositório remoto no GitHub.
+
+3- Diferenças entre Repositório Remoto e Local:
+
+Repositório Local:
+Armazena a cópia do projeto no seu próprio computador.
+Permite trabalhar no projeto mesmo sem uma conexão com a internet.
+As alterações são feitas e versionadas localmente.
+
+Repositório Remoto:
+Armazena o projeto em um servidor remoto (como o GitHub).
+Facilita a colaboração entre várias pessoas.
+Serve como um ponto central para compartilhar e sincronizar as versões do código.
+
+Para enviar alterações do repositório local para o remoto, utiliza-se o comando "git bash"
+
+4- Por que usar branches:
+Facilita o desenvolvimento simultâneo de recursos diferentes.
+Permite testar novas funcionalidades sem afetar o código principal.
+Ajuda a organizar o trabalho e a colaboração em equipe.
+
+5- O que é um merge:
+
+Um merge é a integração das alterações de uma branch em outra.
+Pode resultar em um novo commit que combina as mudanças.
+Quando deve ser usado:
+
+Após desenvolver uma funcionalidade ou correção em uma branch, você pode realizar um merge para incorporar essas alterações de volta à branch principal ou a outra branch relevante.
+
+6- V, F, F, F
